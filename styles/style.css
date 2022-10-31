@@ -1,0 +1,79 @@
+@import url('./layout.css');
+
+body>header {
+    height: 200px;
+    background: url(../images/dylan-leagh-o3eZxJRrNRQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 3.4em;
+    justify-content: space-around;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #28283c;
+    color: #fff;
+    font-size: 0.30em;
+
+}
+
+main {
+    margin: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    line-height: 1.6;
+
+}
+
+div main img {
+    display: flex;
+    float: left;
+    margin: 1em;
+}
+
+
+aside h2 {
+    display: flex;
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 1em;
+    margin: 2px;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#aside-option-3 {
+
+    border: gray;
+    border-style: ridge;
+    margin: 2px;
+    padding: 0.5em;
+
+
+}
+
+aside footer {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+aside footer a {
+    color: #fff;
+}
